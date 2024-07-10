@@ -1,0 +1,138 @@
+Statement on Climate-Related Risk
+Summary
+Climate change continues to shape our world and is emerging as a major driving factor
+affecting long term resilience in industry and the global economy. Its influence on how
+and where we live will continue to grow in significance in the absence of appropriate
+action to abate greenhouse gas emissions.
+Likewise, the effect that climate change has on the way business and industry operates
+cannot be overlooked. Whilst we recognise that climate change presents substantive risks
+to our operations and products, we also recognise that the challenge posed by climate
+change presents our organisation with enormous opportunity in terms of the provision of
+sustainable power and transport. It is only by recognising these risks and opportunities
+that we can implement appropriate actions to maintain our resilience in a world shaped by
+climate change.
+This document may contain forward-looking statements; any statements that may express forecasts, expectations and
+projections are not guarantees of future performance. This statement is intended to provide information to stakeholder s
+and by its nature may involve risk and uncertainty.
+Risk identification process
+The assessment and management of climate-related risk and opportunity is an integral
+part of our enterprise risk management process. This acts to identify both current and
+emerging risks and opportunities.
+Risks and opportunities are considered over a range of timescales including:
+• 0 to 1 years for in-year planning;
+• 1 to 5 years for annual target setting;
+• 5 to 20 years for strategic planning.
+Identification of climate-related risks and opportunities occurs at all levels and in all parts
+of Rolls-Royce, from our Executive Team and Board who oversee principal risks for the
+company, through to our shop floor where more specific operational and asset level risks
+are identified.
+Climate-related risks and opportunities are identified through a range of processes, with
+reviews conducted regularly throughout the year in line with UK Governances Code
+requirements. These processes include horizon scanning, scenario planning, subjectmatter expertise (such as that provided by our Environmental Advisory Committee of
+academic experts), and broader stakeholder engagement. The outputs of these processes
+are categorised as either threats or opportunities.
+Threats are subjected to a materiality assessment which determines if the risk they
+represent is within our risk appetite, and to understand where risk management or
+mitigation is required. Risk mitigation is intended to lessen our exposure to risks with the
+potential to have substantive financial or strategic impact on our business operations and
+products. Likewise, opportunities go through a similar materiality assessment to determine
+if and how we could leverage our position as a leading industrial technology company to
+deliver solutions to help mitigate climate change and generate new business
+opportunities.
+Risk management process
+Once identified, risks are assessed using a risk scoring scheme that is formally defined in
+a risk management plan. Each risk is initially assessed on a qualitative basis, comprising
+probability of occurrence and the potential impact of the risk defined. A list ranking and
+prioritising the risks is then made available in a risk register to facilitate management
+focus on key risks. The most material risks are reviewed every six months by the Board or
+the most appropriate Board sub-committee. These actions help us to coordinate our near
+term and long term research and development programmes from which emerge more
+efficient products, services, and operational capabilities.
+Our treatment of climate-related risks is dependent upon the risk in question and our
+ability to address all the root causes. Risks that are within our control, such as transitional
+risks associated with product emissions, are more easily mitigated through the
+development of technology. Those risks that are outside our control are better managed
+through risk transfer (for example the purchase of business continuity insurance to
+safeguard against the physical risk of extreme weather disrupting our supply chain). Risks
+that conform to the Group’s defined risk appetite are either accepted or controlled
+through less direct methods.
+Climate-related opportunities are assessed in terms of their ability to generate returns for
+minimal risk. Those opportunities with high return potential are realised and capitalised
+on through the development of new technologies via a gated review process. Applying
+this approach to both transitional opportunities (such as developments in customer
+requirements for more efficient products) and physical opportunities (such as the change
+in product performance requirements to accommodate changes in weather and
+atmospheric conditions) leads to the development of new products and services that help
+deliver societies requirement for power in more sustainable ways.Risks and opportunities
+We have identified the following risks and opportunities that have the potential for substantive impact on our business.
+Risks associated with climate change
+Potential
+Risk Description Likelihood Timescale Management
+impact
+If the impacts of climate change The management of these risks is an integral part of
+results in severe and our multi-disciplinary companywide risk
+unanticipated volatility to the management processes. A variety of methods are
+Product physical operating environment Very used to manage these risks depending on the form
+Low >5 years
+operation of our product, then our ability High they take:
+to operate a viable services
+oriented business will be greatly - Horizon scanning and scenario planning;
+reduced - Investing in the development of products and
+If the impacts of climate change capabilities to reduce our environmental impact
+result in consumer and societal - Enhancing our capabilities to access, invest in
+expectations for low carbon and develop key technologies and innovative
+transports increasing at a faster service offerings that differentiate us
+Societal Very
+pace than we can innovate and Low 1-5 years competitively;
+pressure High
+develop low carbon solutions - Forming strategic partnerships and conducting
+for, then we could potentially joint research programmes with our partners;
+lose market share. - Actively sharing environmental information
+where possible through industry, government
+If the impacts of climate change and NGO forums;
+results in severe regulatory limits - Regular reviews of the strength of relevant
+or restrictions on our production teams including engineering, technology,
+and manufacturing activities, Very environment and sustainability specialists;
+Regulations Low 1-5 years
+then we could be unable to High - Developing and maintaining relationships with
+produce our product as planned government’s and stakeholders and proactively
+and will forfeit sales and influencing policy, regulation and legislation
+associated revenue streams where it affects us.Opportunities associated with climate change
+Potential
+Opportunity Description Likelihood Timescale Management
+impact
+If increases in air temperature cause The process we have implemented to
+inlet air temperature to increase, then manage these opportunities takes its
+the power provided by current engines inputs from 2 areas:
+will be reduced, limiting their • Customer and stakeholder engagement
+Product Medium- Low-
+operational capability (particularly in >5 years (to understand product and system
+operations high medium
+regions of high altitude). This will requirements)
+provide our company with an • Monitoring developments in the
+opportunity to replace current engine understanding of climate change and
+fleets and generate increased revenue. the subsequent changes in regulation,
+If the impacts of climate change result both through in-house activities and
+in increased demand from consumer our Environmental Advisory Committee
+and broader society for more efficient of distinguished academics and leading
+and lower carbon transport systems, environmental scientists.
+then this would enhance the value of
+Societal our investment in advanced technology Low- Our internal Environment & Sustainability
+Low >5 years
+demand and could potentially result in direct medium Committee uses the outputs of this
+increases in the sale of our products process to co-ordinate associated
+and services to replace legacy or activities across the Group as to which
+provide cost-effective solutions for related opportunities we should capitalise
+customers to maintain the efficiency of on. Qualifying opportunities are then
+our products in the field. realised through the development of new
+If concerns over climate change cause technologies using standard design,
+governments to increase the proportion development and implementation
+of nuclear energy generation as part of frameworks.
+a future low-carbon energy mix, then
+New business
+our capabilities in nuclear and the High Medium >5 years
+opportunity
+development of SMRs for civil power
+stations would put us in a leading
+position to supply this expanding
+market.

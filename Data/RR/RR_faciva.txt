@@ -1,0 +1,26 @@
+Description: Rolls-Royce Holdings Plc designs, develops, manufactures, and services integrated power systems for use in the air, on land, and at sea. The company operates its business through following segments: Civil Aerospace, Power Systems, Defense and ITP Aero. The Civil Aerospace segment offers commercial aero engines and aftermarket services. The Power Systems segment includes engines, power systems and nuclear systems for civil power generation. The Defense segment consists of military aero engines, naval engines, submarines and aftermarket services. The ITP Aero segment provides aeronautical engines and gas turbines. The company was founded in March 1906 and is headquartered in London, the United Kingdom.
+Primary Industry Classification:
+Dow Jones Industry	 	Aircraft Engines
+SIC	3724	Aircraft Engines and Engine Parts
+NACE	35.30	Manufacture of aircraft and spacecraft
+NAICS	336412	Aircraft Engine and Engine Parts Manufacturing
+Profitability:
+Pre-Tax Margin TTM	13.67%
+Pre-Tax Margin, 5-Yr Average	-6.61%
+Net Profit Margin TTM	14.63%
+Net Profit Margin, 5-Yr Average	-5.56%
+Operating Margin TTM	14.55%
+Operating Margin, 5-Yr Average	4.26%
+EBIT	2,154
+EBIT TTM	1,820
+EBIT Margin, 5-Yr Average	1.12%
+Gross Margin TTM	21.71%
+Gross Margin, 5-Yr Average	20.92%
+Tax Rate	1.02%
+Tax Rate, 5-Yr Average	1.02%
+Efficiency:
+Revenue per Employee TTM	394,308
+Net Income per Employee TTM	57,689,548,000
+Asset Turnover TTM	0.55
+Receivables Turnover TTM	2.64
+Inventory Turnover TTM	2.44
