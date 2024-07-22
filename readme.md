@@ -1,4 +1,4 @@
-# ResumeCLT
+# Company annual report CLT
 
 This is a command line tool to automatically read companies report related to climate risk disclosure from their annual reports. 
 It will store the output in a file with the name company name and the year of the report. E.g. `Apple_2020.json`.
