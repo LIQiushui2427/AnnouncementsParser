@@ -39,21 +39,17 @@ def extract_text_from_file(file):
 
 def parse_content(text_content, prompts):
     print("Parsing content...")
-    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"), base_url="https://api.chatanywhere.tech/v1")
-    print("API Key: ", os.environ.get("OPENAI_API_KEY"))
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     
-    prompts = json.loads(prompts)
     completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
           messages=[
             {
             "role": "system",
             "content": [
                 {
                 "type": "text",
-                "text": "You are a professional grade company report parser and will be provided with text content extracted from a annual report file. Your task is to return nothing else but clean, accurate JSON formatted data with: # - Company Name\n# - Report Year \n# - Region\n# - All the variables in the variables dictionary\n# \
-                - The parsed information will be saved in a json file in the output_dir with name-format: {company_name}_{report_year}.json \
-                for the variables questions, please refer to the variables dictionary in the prompts.py file. Your answer regarding every variable should be either 0 for no or 1 for yes. "
+                "text": "You are a professional company report parser and will be provided with text content extracted from a annual report file. Your task is to return nothing else but clean, accurate JSON formatted data with: # - Company Name\n# - Report Year \n# - Region\n# , and all variables and questions in the prompts. The parsed information will be saved in a json file in the output_dir with name-format: {company_name}_{report_type}_{report_year}.json."
                 }
             ]
             },
@@ -62,7 +58,10 @@ def parse_content(text_content, prompts):
             "content": [
                 {
                 "type": "text",
-                "text": text_content + str(prompts)
+                "text": "Hi, please parse the following text content and provide the requested information in your answer. \
+                please finish remaining questions/task after reading the report, whose specification is all in the prompts.json files. \
+                Your answer should strictly follow the instructions in the prompt, if there is no choice, please give 1 if the answer is yes and 0 if the answer is no. \
+                The parsed information will be saved in a json file in the output_dir with name-format: {company_name}_{report_type}_{report_year}.json. " + "\n\n Texts: " + text_content + "\n\n Prompts: " + prompts
                 }
             ]
             }
@@ -71,13 +70,3 @@ def parse_content(text_content, prompts):
     )
 
     return json.loads(completion.choices[0].message.content)
-
-def generate_filename(parsed_info, args):
-    # If the school is in the target list, prepend "Matched-" to the filename
-
-    company_name = parsed_info['company_name']
-    report_year = parsed_info['report_year']
-    
-    filename = f'{company_name}_{report_year}'
-            
-    return filename

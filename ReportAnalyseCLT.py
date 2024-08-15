@@ -8,9 +8,8 @@
 # - The parsed information will be saved in a json file in the output_dir with name-format: {company_name}_{report_year}.json
 
 from options import parse_args
-from utils import extract_text_from_file, parse_content, generate_filename
+from utils import *
 import os
-import shutil
 import json
 
 
@@ -22,17 +21,31 @@ def process_file(file, args):
 
     text_content = extract_text_from_file(file)
     print('Waiting for response from OpenAI...')
+    
     parsed_info = parse_content(text_content, json_file.read())
 
-    # Get the original file extension
-    file_extension = os.path.splitext(file)[1]
+    print('Response received.')
+    print('Saving parsed information...', parsed_info.keys())
+    keys = list(parsed_info.keys())
+    print(keys)
+    # The first key is the company name
+    company_name = parsed_info[keys[0]]
+    report_type = parsed_info[keys[1]]
+    report_year = parsed_info[keys[2]]
+    
+    filename = f'{company_name}_{report_type}_{report_year}.json'
+    
+    # Rename the file
+    
+    # Save all the parsed information in a JSON file with the filename format: {company_name}_{report_year}.json
+    
+    with open(os.path.join(args.output_dir, filename), 'w') as f:
+        json.dump(parsed_info, f)
+        
+    print(f'Parsed information saved in {filename}.')
+    
+    print(parsed_info)
 
-    filename = f"{generate_filename(parsed_info, args)}{file_extension}"
-    print(f"New filename: {filename}. Press any key to save the file.")
-    input()
-
-    # Copy the file to the output directory with the new name
-    shutil.copyfile(file, os.path.join(args.output_dir, filename))
 
 def main():
     args = parse_args()
