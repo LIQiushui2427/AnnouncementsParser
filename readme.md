@@ -1,44 +1,102 @@
-# Company annual report CLT
+# Company Annual Report CLT (Climate-Related Tool)
 
-This is a command line tool to automatically read companies report related to climate risk disclosure from their annual reports. 
-It will store the output in a file with the name company name and the year of the report. E.g. `Apple_2020.json`.
+## Introduction
+This command line tool is designed to automate the extraction of climate risk disclosure information from annual reports of U.S. manufacturing companies classified under SIC Codes 2000-3999. The tool processes PDF reports, extracts relevant data using advanced OCR and NLP techniques, and outputs the information in a structured JSON format. This README provides detailed instructions on setting up and using the tool effectively.
+
+## Project Structure
+The project is organized as follows:
+- `src/`: Contains all the source code.
+- `data/`: Default directory for storing input PDFs and output JSON files.
+- `requirements.txt`: Lists all Python dependencies.
+
 ## Requirements
 
-You need to have `python`, `pip`, `poppler-utils` and `tesseract` installed.
+### Software Requirements
+- **Python 3.8+**: The primary programming language used.
+- **pip**: Python's package installer.
+- **Poppler-utils**: Provides utilities to work with PDF files.
+- **Tesseract-OCR**: Converts images in PDFs to text.
 
+### Installation Instructions
+
+#### Python and pip
+Ensure Python and pip are installed. You can download Python from the official website and it typically comes with pip.
+
+### Poppler-utils
+
+For Debian-based systems, install using:
+
+```bash
+sudo apt-get install poppler-utils
 ```
+For Red Hat-based systems, use:
+
+```bash
+sudo yum install poppler-utils
+```
+
+Tesseract-OCR
+To install Tesseract on Ubuntu:
+
+```bash
+sudo apt install tesseract-ocr
+```
+
+To install additional language packs such as for Simplified Chinese:
+
+```bash
+sudo apt install tesseract-ocr-chi-sim
+```
+### Installing Python Dependencies
+Navigate to the project directory and run:
+
+```bash
 pip install -r requirements.txt
 ```
+## Configuration
+API Keys
+Store your OpenAI API key in a .env file within the project's root directory to ensure the tool can access ChatGPT services for text analysis. The file should look like this:
 
-You might need additonal tesseract language packs per your use cases. For example,
-
-```
-sudo dnf install tesseract-langpack-chi_sim
-```
-
-You need to provide your own OpenAI API with `.env`.
-
-## Usage
-
-```
-ResumeCLT.py [-h] --source_dir SOURCE_DIR --output_dir OUTPUT_DIR [--target_list TARGET_LIST]
-
-Options for ResumeCLT
-
-options:
-  -h, --help            show this help message and exit
-  --source_dir SOURCE_DIR
-                        Directory where the report files are stored
-  --output_dir OUTPUT_DIR
-                        Directory where the output files will be stored
-  --target_list TARGET_LIST
-                        File containing the list of target schools
+```bash
+OPENAI_API_KEY='your-api-key-here'
 ```
 
-Run provided test case with:
-
+## Usage Instructions
+### Running the Tool
+To use the tool, execute the following command from the root of your project directory:
+```bash
+python src/ReportAnalyseCLT.py --source_dir path/to/input --output_dir path/to/output
 ```
-bash run.sh
+## Command Line Arguments
+--source_dir: Specifies the directory containing the PDF reports.
+--output_dir: Specifies where the JSON output files should be saved.
+--target_list (optional): A file containing a list of specific companies to process.
+## Example Usage
+```bash
+python src/ReportAnalyseCLT.py --source_dir data/reports --output_dir data/output
 ```
+## Output Format
+The output JSON files will be named in the format CompanyName_Year.json and will contain structured data extracted from the reports, including financial figures and disclosure details.
 
+## Troubleshooting
+### Common Issues
+**Dependency Errors:** Ensure all dependencies are correctly installed as per the instructions.
+**OCR Accuracy:** Poor quality PDFs may result in inaccurate text extraction. Consider manually verifying critical data.
+**Help:** For additional help, use the -h option with the command to display detailed usage instructions:
+
+```bash
+python src/ReportAnalyseCLT.py -h
+```
 ## License
+This tool is released under the MIT License.
+
+## Contact
+For further assistance or to report bugs, please contact 
+
+```
+This README file is designed to guide users through the setup, installation, and operation of your tool comprehensively, making it accessible even to those with limited technical background. If you need this content in a downloadable `.md` file, let me know and I can create one for you!
+```
+
+
+
+
