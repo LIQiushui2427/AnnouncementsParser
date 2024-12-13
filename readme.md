@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This command line tool is designed to automate the extraction of climate risk disclosure information from annual reports of U.S. manufacturing companies classified under SIC Codes 2000-3999. The tool processes PDF reports, extracts relevant data using advanced OCR and NLP techniques, and outputs the information in a structured JSON format. This README provides detailed instructions on setting up and using the tool effectively.
+This command line tool is designed to automate the extraction of climate risk disclosure information from annual Announcements of U.S. manufacturing companies classified under SIC Codes 2000-3999. The tool processes PDF Announcements, extracts relevant data using advanced OCR and NLP techniques, and outputs the information in a structured JSON format. This README provides detailed instructions on setting up and using the tool effectively.
 
 ## Project Structure
 
@@ -82,19 +82,19 @@ python src/ReportAnalyseCLT.py --source_dir path/to/input --output_dir path/to/o
 
 ## Command Line Arguments
 
---source_dir: Specifies the directory containing the PDF reports.
+--source_dir: Specifies the directory containing the PDF Announcements.
 --output_dir: Specifies where the JSON output files should be saved.
 --target_list (optional): A file containing a list of specific companies to process.
 
 ## Example Usage
 
 ```bash
-python src/ReportAnalyseCLT.py --source_dir data/reports --output_dir data/output
+python src/ReportAnalyseCLT.py --source_dir data/Announcements --output_dir data/output
 ```
 
 ## Output Format
 
-The output JSON files will be named in the format CompanyName_Year.json and will contain structured data extracted from the reports, including financial figures and disclosure details.
+The output JSON files will be named in the format CompanyName_Year.json and will contain structured data extracted from the Announcements, including financial figures and disclosure details.
 
 ## Troubleshooting
 

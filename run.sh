@@ -1,1 +1,1 @@
-python3.9 ReportAnalyseCLT.py --source_dir ./data --output_dir ./output --prompt_file ./query_base.json
+python ReportAnalyseCLT.py --source_dir ./data --output_dir ./output --prompt_file ./query_base.json

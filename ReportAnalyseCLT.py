@@ -54,7 +54,8 @@ def main():
         print(f"Error: Source directory {args.source_dir} does not exist.")
         return
     if not os.path.exists(args.output_dir):
-        print(f"Error: Output directory {args.output_dir} does not exist.")
+        print(f"Output directory {args.output_dir} does not exist, creating it...")
+        os.makedirs(args.output_dir)
         return
     # if args.target_list and not os.path.exists(args.target_list):
     #     print(f"Error: Target list file {args.target_list} does not exist.")

@@ -1,29 +1,25 @@
     {      
         "Comapny Name": {
             "type": "Open Ended",
-            "name": "Company Name",
             "message": "Please parse the company name"
         },
-        "Report Type":{
+        "Announcement Type":{
             "type": "Close Ended",
-            "name": "Report Type",
-            "message": "Please select the report type, please just return the Index of the category",
+            "message": "Please select the Announcement type, please just return the Index of the category",
             "choices": {
-            "1. Annual Report": "A report published by a company each year to provide information about its financial performance and prospects.",
-            "2. CSR Report": "A report published by a company to communicate its social and environmental performance.",
-            "3. Appendix": "An additional section of the report that provides more detailed information on a specific topic.",
-            "4. Others": "Any other type of report."
+            "1. Annual Announcement": "A Announcement published by a company each year to provide information about its financial performance and prospects.",
+            "2. CSR Announcement": "A Announcement published by a company to communicate its social and environmental performance.",
+            "3. Appendix": "An additional section of the Announcement that provides more detailed information on a specific topic.",
+            "4. Others": "Any other type of Announcement."
             }
         },
-        "Report date": {
+        "Announcement date": {
             "type": "Open Ended",
-            "name": "Report date",
-            "message": "Please parse the report date, with a fixed format of YYYY-MM-DD"
+            "message": "Please parse the Announcement date, with a fixed format of YYYY-MM-DD"
         },
         "Company Category": {
             "type": "Close Ended",
-            "name": "Company Category",
-            "message": "Please select the company category, please just return the Index of the category",
+            "message": "Please select the company category, just return the Index of the category",
             "choices": {
             "Manufacturing": {
                 "1. High Emission": "Companies with significant carbon emissions, typically large-scale manufacturers in sectors like chemicals, steel, cement, and heavy machinery.",
@@ -35,11 +31,11 @@
             }
         },
         "Multi choice quesitons": {
-            "Importance of climate risk disclosure": "Measures how important investors consider reporting by portfolio firms on climate risks compared to reporting on financial information. The variable ranges between one and five, with one indicating that climate risk reporting is 'much less important' and five indicating that it is 'much more important.'",
+            "Importance of climate risk disclosure": "Measures how important investors consider Announcementing by portfolio firms on climate risks compared to Announcementing on financial information. The variable ranges between one and five, with one indicating that climate risk Announcementing is 'much less important' and five indicating that it is 'much more important.'",
             "Demand more disclosure": "Equals one if a respondent 'strongly agrees' that investors should demand that portfolio firms disclose their exposure to climate risk, and zero otherwise. In the underlying questions, respondents were asked to indicate their agreement with the statements on a scale of one ('strongly disagree') through five ('strongly agree').",
             "Quant. information imprecise": "Equals one if a respondent 'strongly agrees' that firm-level quantitative information on climate risk is not sufficiently precise, and zero otherwise. In the underlying questions, respondents were asked to indicate their agreement with the statements on a scale of one ('strongly disagree') through five ('strongly agree').",
             "Management discussions imprecise": "Equals one if a respondent 'strongly agrees' that management discussions on climate risk are not sufficiently precise, and zero otherwise. In the underlying questions, respondents were asked to indicate their agreement with the statements on a scale of one ('strongly disagree') through five ('strongly agree').",
-            "TCFD engagement": "Equals one if a respondent engages or plans to engage portfolio companies to report according to the recommendations of the Task Force on Climate-related Financial Disclosures, and zero otherwise.",
+            "TCFD engagement": "Equals one if a respondent engages or plans to engage portfolio companies to Announcement according to the recommendations of the Task Force on Climate-related Financial Disclosures, and zero otherwise.",
             "Carbon footprint disclosure": "Equals one if a respondent discloses or plans to disclose the overall carbon footprint of the portfolio, and zero otherwise.",
             "Climate risk ranking": "Outcome of a ranking of the importance of climate risks relative to other investment risks. The variable ranges from one (if they are considered the least important risk) to six (if climate risks are considered the most important risk).",
             "Climate risk financial materiality": "Averages the responses to three questions about the financial materiality of regulatory, physical, and technological climate risk. Each of these three variables can range between one (not at all important) and five (very important).",
@@ -77,8 +73,8 @@
             "French firm": "Equals one if a firm is from France, and zero otherwise.",
         },
         "Engagement and Strategy": {
-            "The CEO/chairperson articulates the organization's views on the issue of climate change in annual reports or CSR reports": "Equals one if the CEO/chairperson articulates the organization's views on the issue of climate change in annual reports or CSR reports, and zero otherwise.",
-            "Quantitative carbon emission information is disclosed in executive's reports." : "Equals one if quantitative carbon emission information is disclosed in executive's reports, and zero otherwise.",
+            "The CEO/chairperson articulates the organization's views on the issue of climate change in annual Announcements or CSR Announcements": "Equals one if the CEO/chairperson articulates the organization's views on the issue of climate change in annual Announcements or CSR Announcements, and zero otherwise.",
+            "Quantitative carbon emission information is disclosed in executive's Announcements." : "Equals one if quantitative carbon emission information is disclosed in executive's Announcements, and zero otherwise.",
             "Carbon emissions issue is under the supervision of Board or executive management level." : "Equals one if the carbon emissions issue is under the supervision of Board or executive management level, and zero otherwise.",
             "Firm discloses its general knowledge of climate change and/or carbon emission abatement but without any target or result related information." : "Equals one if the firm discloses its general knowledge of climate change and/or carbon emission abatement but without any target or result related information, and zero otherwise.",
             "Firm implements or plans to implement any specific carbon management schemes" : "Equals one if the firm implements or plans to implement any specific carbon management schemes, and zero otherwise.",
@@ -87,7 +83,7 @@
         "Measurement and performance": {
             "Firm discloses the methodology it employed to measure or calculate its carbon emissions.": "Equals one if the firm discloses the methodology it employed to measure or calculate its carbon emissions, and zero otherwise.",
             "Firm measures its carbon emissions in compliance with any carbon footprint measurement standard." : "Equals one if the firm measures its carbon emissions in compliance with any carbon footprint measurement standard, and zero otherwise.",
-            "Firm discloses the consolidation approach for its carbon emissions measure and/or any changes during the reporting period." : "Equals one if the firm discloses the consolidation approach for its carbon emissions measure and/or any changes during the reporting period, and zero otherwise.",
+            "Firm discloses the consolidation approach for its carbon emissions measure and/or any changes during the Announcementing period." : "Equals one if the firm discloses the consolidation approach for its carbon emissions measure and/or any changes during the Announcementing period, and zero otherwise.",
             "Firm discloses its carbon operational/ inventory boundary." : "Equals one if the firm discloses its carbon operational/ inventory boundary, and zero otherwise.",
             "Firm discloses its baseline year to measure and/or benchmark its carbon emissions." : "Equals one if the firm discloses its baseline year to measure and/or benchmark its carbon emissions, and zero otherwise.",
             "Firm discloses the quantity of its direct carbon emissions (scope 1 emission)." : "Equals one if the firm discloses the quantity of its direct carbon emissions (scope 1 emission), and zero otherwise.",
@@ -122,8 +118,8 @@
         },
         "Quantitative data analysis":{
             "Type": "Open Ended",
-            "Message": "Please provide the quantitative data analysis for the input report. You are an expert at reading climate risk disclosures. You have been asked to review the climate risk disclosures of input report.",
-            "Quantitiavive Data Found": "Please report the data found in the input report. Give their name in comma separated format.",
-            "Data": "For every data you found, please provide all available data from the input report. Put all numbers you found in a list in your response, which is categorized by the \"data name\"."
+            "Message": "Please provide the quantitative data analysis for the input Announcement. You are an expert at reading climate risk disclosures. You have been asked to review the climate risk disclosures of input Announcement.",
+            "Quantitiavive Data Found": "Please Announcement the data found in the input Announcement. Give their name in comma separated format.",
+            "Data": "For every data you found, please provide all available data from the input Announcement. Put all numbers you found in a list in your response, which is categorized by the \"data name\"."
         }
     }
